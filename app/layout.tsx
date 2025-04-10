@@ -31,7 +31,7 @@ export default function RootLayout({
         <nav className="flex gap-4 p-4">
           <Link href="/">Home</Link>
           <Link href="/blog">Blog</Link>
-          <Link href="/posts">Posts</Link>
+          <Link href="/post">Posts</Link>
         </nav>
         {children}
       </body>
