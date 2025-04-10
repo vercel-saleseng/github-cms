@@ -8,7 +8,7 @@ export default async function Page() {
   console.log(files)
 
   return (
-    <main className="p-20">
+    <main className="p-4">
       <h1>Blog</h1>
       <ul>
         {files.map((file) => (
